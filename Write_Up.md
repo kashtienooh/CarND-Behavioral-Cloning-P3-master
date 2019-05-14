@@ -11,22 +11,16 @@ The goals / steps of this project are the following:
 *    Test that the model successfully drives around track one without leaving the road
 *    Summarize the results with a written report
 
-
-[//]: # (Image References)
-
-[img1]: ./examples/center_2019_05_11_15_05_05_499.jpg "Center Camera "
-[img2]: ./examples/left_2019_05_11_15_05_05_430.jpg "Left Camera"
-[img3]: ./examples/right_2019_05_11_15_05_05_430.jpg "Right Camera"
-
 ### Files Submitted & Code Quality
 #### 1. Submission includes all required files and can be used to run the simulator in autonomous mode
 
 #### My project includes the following files:
 
-* `3_Asigment.ipynb` containing the script to create and train the model
+* `model.ipynb` containing the script to create and train the model
+* `model.p` containing the script to create and train the model
 * `drive.py` for driving the car in autonomous mode
 * `model_2_.h5` containing a trained convolution neural network 
-* `writeup_report.md` summarizing the results
+* `Write_Up.md` summarizing the results
 * `video.mp4` a sample video of the given track with autonomous drive
 
 #### 2. Submission includes functional code
@@ -103,17 +97,15 @@ Non-trainable params: 422
 
 
 #### 4. Appropriate training data
-I collect my data with Udacity Simulator. I drove each track twice in one way and twice in opposite way. The usage of flip technik was not realy helpfull for me.
+I collect my data with Udacity Simulator. I drove each track twice in one way and twice in opposite way. The usage of flip technik was not realy helpfull for me. Here I put from each camera one foto as an example. Center camera, left camera and the right camera.
 
+Center camera
+<img src="./examples/center_2019_05_11_15_05_05_499.jpg">
+Left camera
+<img src="./examples/left_2019_05_11_15_05_05_430.jpg ">
+Right camera
+<img src="./examples/right_2019_05_11_15_05_05_430.jpg  ">
 
-![alt text][img1]
-center camera
-
-![alt text][img2]
-left camera
-
-![alt text][img3]
-right camera
 
 #### Summary
 
